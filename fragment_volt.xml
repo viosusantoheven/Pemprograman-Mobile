@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".VoltFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Tegangan Listrik "
+        android:paddingBottom="40dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Arus ( Amphere ) ... "
+
+        />
+
+    <EditText
+        android:id="@+id/etArus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Hambatannya ( ohm ) ... "
+        />
+
+    <EditText
+        android:id="@+id/etHambatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <Button
+        android:id="@+id/btnVolt"
+        android:layout_marginLeft="-150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volt"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        />
+    <Button
+        android:id="@+id/btnAmphere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-47dp"
+        android:layout_marginLeft="-45dp"
+        android:text="Amphere"
+        />
+
+
+
+</LinearLayout>
